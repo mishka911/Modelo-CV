@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+/* Columnas */
+.left-column {
+    flex: 1;
+    background-color: #081b30;
+    border-radius: 20px;
+    color: #ffffffd2;
+    padding: 20px;
+    text-align: center;
+}
+
+.left-column img {
+    border-radius: 40%; /* Hace que la imagen sea redonda */
+    max-width: 100px; /* Establece el ancho máximo de la imagen */
+    height: auto; /* Mantiene la relación de aspecto original */
+    display: blo
+  
+}
+
+.contact{
+text-align: left;
+}
+
+.right-column {
+    flex: 2;
+    padding: 20px;
+    position: relative;
+}
+
+/* Estilos del encabezado */
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.profile p {
+    font-size: 18px;
+}
+
+/* Estilos de secciones */
+section {
+    margin-top: 20px;
+}
+ .perfil{
+    border-bottom: 1px solid #ccc; 
+ }
+section h2 {
+    border-bottom: 1px solid #ccc;
+    font-size: 30px;
+    margin: 0;
+    color: #c98725;
+}
+.bar {
+    background-color: #f0f0f0;
+    height: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.progress {
+    background-color: #007BFF;
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    padding-right: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: small;
+}
+.job, .degree {
+    margin-top: 20px;
+}
+
+.job h4, .degree h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.job p, .degree p {
+    font-size: 13px;
+}
+
+.watermark {
+    position: absolute; /* Posicionamiento absoluto en relación a .right-column */
+    bottom: 20px; /* Alineación con margen inferior */
+    right: 20px; /* Alineación con margen derecho */
+    color: rgba(18, 41, 91, 0.4); /* Color de la marca de agua semitransparente */
+    font-size: 20px;
+}
+
+
